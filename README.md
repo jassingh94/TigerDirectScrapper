@@ -26,7 +26,7 @@ node run.js -u "<url>"
 
 ### Execute On UI
 
-> To execute using command line follow the following steps
+> To use on UI follow the following steps
 
 <br>
 
