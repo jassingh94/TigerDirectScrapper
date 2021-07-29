@@ -1,0 +1,14 @@
+{
+  "name": "scrapper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {},
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^8.1.0",
+    "express.js": "^1.0.0",
+    "puppeteer": "^10.1.0"
+  }
+}
