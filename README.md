@@ -46,6 +46,8 @@ node server.js
 
 > A text area would contain the list of reviews
 
+![Image](https://github.com/jassingh94/TigerDirectScrapper/blob/main/dependencies/imgs/img1.PNG "Image")
+
 
 
 
