@@ -5,6 +5,7 @@
  * @returns Promise
  */
 function scrape(browser, url) {
+    console.log("Scraping request recieved")
     return new Promise(async (resolve, reject) => {
         try {
             // open new page
@@ -48,6 +49,7 @@ function scrape(browser, url) {
                     && currentPageNext instanceof Array
                     && currentPageNext.length) {
                     let nextPageSelector = ".reviewPage>dd>a[title='Next']"
+                    console.log(`Read length ${allReviews.length} in current page`)
                     await page.evaluate(selector => {
                         return document.querySelector(selector).click();
                     }, nextPageSelector)
