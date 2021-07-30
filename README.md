@@ -1,3 +1,7 @@
+# Supports 
+ - Node.js v12 + 
+ - Please use branch [Branch](https://github.com/jassingh94/TigerDirectScrapper/tree/v9) for Node.js v9/v10
+
 # Tiger Direct Scrapper
 
 The scrapper is able to scrap any review/s, for a valid Item page on [Tiger Direct](https://www.tigerdirect.com/)
